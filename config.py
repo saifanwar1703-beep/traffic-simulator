@@ -3,8 +3,8 @@ SIMULATION_CONFIG = {
     'width': 800,
     'height': 800,
     'fps': 60,
-    'car_spawn_rate': 1,  # Cars per second (approx)
-    'car_speed': 2,
+    'train_spawn_rate': 0.75,  # Trains per second (approx)
+    'train_speed': 2,
 }
 
 # --- AI Agent Configuration ---
@@ -15,4 +15,3 @@ AI_CONFIG = {
     'exploration_decay': 0.9995,  # Rate at which exploration decreases
     'min_exploration_rate': 0.01, # Minimum exploration probability
 }
-
